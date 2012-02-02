@@ -1,0 +1,20 @@
+/* Pretty printing styles. Used with prettify.js. */
+
+/* SPAN elements with the classes below are added by prettyprint. */
+.pln { color: #f7f3e8 }  /* plain text */
+
+@media screen {
+  .str { color: #95e454 }  /* string content */
+  .kwd { color: #f7f3e8 }  /* a keyword */
+  .com { color: #99968b }  /* a comment */
+  .typ { color: #cae682 }  /* a type name */
+  .lit { color: #cae682 }  /* a literal value */
+  /* punctuation, lisp open bracket, lisp close bracket */
+  .pun, .opn, .clo { color: #e7f6da }
+  .tag { color: #008 }  /* a markup tag name */
+  .atn { color: #606 }  /* a markup attribute name */
+  .atv { color: #080 }  /* a markup attribute value */
+  .dec, .var { color: #cae682 }  /* a declaration; a variable name */
+  .fun { color: #cae682 }  /* a function name */
+}
+
