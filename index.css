@@ -1,0 +1,70 @@
+body {
+  background-color: #000;
+  color: #f7f3e8;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 30px;
+}
+h1 {
+  margin: 2em 0 1em 0;
+  text-align: center;
+}
+#debut {
+  font-size: 400%;
+}
+#fin {
+  margin-top: .5em;
+  font-family: 'Monsieur La Doulaise';
+  font-size: 900%;
+}
+blockquote {
+  padding: 1em 0;
+  font-size: 150%;
+  font-style: italic;
+}
+a,
+a:visited {
+  color: #5bb8df;
+}
+code {
+  font-family: 'Droid Sans Mono';
+}
+pre {
+  text-wrap: wrap;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  word-wrap: break-word;
+  background-color: #242424;
+  padding: .5em .1em;
+}
+pre .highlight span {
+  color: #5bb8df !important;
+  font-weight: bold;
+  text-shadow: #000 0 0 10px;
+}
+#container {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#content {
+  width: 30000px;
+  height: 7000px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.slide {
+  position: relative;
+  float: left;
+  width: 1200px;
+  height: 700px;
+}
+.slide.centered {
+  text-align: center;
+}
+.slide_group {
+  position: absolute;
+  top: 700px;
+}
